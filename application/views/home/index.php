@@ -1,9 +1,9 @@
 <div class="container">
-   <div class="jumbotron mt-4">
-      <h1 class="display-4">Selamat Datang Di Website Saya</h1>
-      <p class="lead">Hallo, nama saya <?= $nama; ?> </p>
+   <div class="jumbotron my-3">
+      <h1 class="display-4">Konnichiwa <span>&#128075;&#127995;</span></h1>
+      <p class="lead">This is my first website to use the CodeIgniter 3.1.11 framework. I am happy to know and learn about this framework. What do you think?</p>
       <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      <p>In the next project, I will create a website with the laravel framework.</p>
+      <a class="btn btn-primary btn-lg" href="<?= base_url('home/about'); ?>" role="button">Know me better</a>
    </div>
 </div>
